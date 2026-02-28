@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Flutter Developer & SE Student</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">Dev<span>Portfolio</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="greeting">Hello, World! I am</p>
+            <h1>Yusuf Dagash</h1>
+            <h2 class="typing-text">I'm a <span class="typed-role"></span></h2>
+            <p class="hero-desc">A passionate Software Engineering Student building beautiful, natively compiled
+                applications.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary">View My Work</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/YusufDagash" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/yusuf-dagash-7950b9366" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="blob-shape">
+                <i class="fa-brands fa-flutter flutter-icon-large"></i>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about padding-section hidden">
+        <h2 class="section-title">About <span>Me</span></h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p>Hello! I am a <strong>Software Engineer</strong> exploring the elegant world of app
+                    development. My primary focus and passion lie within the <strong>Flutter ecosystem</strong> and Dart
+                    programming language.</p>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>3+</h3>
+                        <p>Academic Years</p>
+                    </div>
+                    <div class="stat">
+                        <h3>10+</h3>
+                        <p>Projects Built</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills padding-section hidden">
+        <h2 class="section-title">My <span>Skills</span></h2>
+        <div class="skills-grid">
+            <div class="skill-card"><img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg"
+                    alt="Flutter" style="width: 3rem; margin-bottom: 1rem;">
+                <h3>Flutter</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%"></div>
+                </div>
+            </div>
+            <div class="skill-card"><i class="fas fa-mobile"></i>
+                <h3>Dart</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%"></div>
+                </div>
+            </div>
+            <div class="skill-card"><i class="fab fa-html5"></i>
+                <h3>HTML/CSS/JS</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects padding-section hidden">
+        <h2 class="section-title">Featured <span>Projects</span></h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-img flutter-project"><i class="fab fa-flutter"></i></div>
+                <div class="project-info">
+                    <div class="project-tags"><span>Flutter</span><span>Firebase</span></div>
+                    <h3>E-Commerce App</h3>
+                    <p>A cross-platform mobile application featuring user authentication and real-time database.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact padding-section hidden">
+        <h2 class="section-title">Get In <span>Touch</span></h2>
+        <div class="contact-container">
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Yusuf Dagash. Built with ❤️</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
